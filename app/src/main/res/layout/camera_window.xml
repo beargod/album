@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <Button
+        style="@style/camera_button"
+        android:id="@+id/btn_shutter"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="拍摄" />
+
+    <Button
+        android:id="@+id/add"
+        style="@style/camera_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="+" />
+
+    <Button
+        style="@style/camera_button"
+        android:id="@+id/delete"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="-" />
+    <Button
+        style="@style/camera_button"
+        android:id="@+id/return_activity"
+        android:text="返回"/>
+    <Button
+        style="@style/camera_button"
+        android:id="@+id/hide"
+        android:text="隐藏"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
